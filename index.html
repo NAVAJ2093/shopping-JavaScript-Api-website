@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-GLhlTQ8iowjANuhU6ZfM7JOT+32QF6EA/r0I5NIC6UDFShp"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-shop" id="logo-mediaquerries">
+          Fashion <span> Fusion</span>
+        </i>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home" id="home-link" class="active"> Home </a></li>
+          <li>
+            <a href="#newarrivals" id="newarrivals-link"> New Arrival </a>
+          </li>
+          <li><a href="#about" id="about-link"> About </a></li>
+          <li><a href="#reviews" id="reviews-link"> Reviews </a></li>
+        </ul>
+      </nav>
+
+      <div class="icon">
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="carts">
+          <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+          <span id="cart-Num"> 0 </span>
+        </div>
+        <div id="cart" class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cartItems"></div>
+          <div class="cart-content"></div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button type="button" class="btn-buy">Buy Now</button>
+          <i class="fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+      <div class="burger-menu">
+        <i class="fas fa-bars burger-icon"></i>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="main-container">
+        <img src="Assets/hero-img65.png" class="feature-img anim" />
+        <div class="hero-text">
+          <h1 class="anim">
+            Fashion
+            <br />
+            <span> for Every Occasion </span>
+          </h1>
+          <p class="anim">
+            Shop the latest trends effortlessly with our online store where
+            <br />
+            style meets simplicity and sophistication
+          </p>
+          <a href="" class="btn-main anim"> Shop Now </a>
+        </div>
+      </div>
+    </main>
+
+    <div id="newarrivals">
+      <div class="products-heading">
+        <h1 class="products-heading">Our <span> New Arrivals </span></h1>
+      </div>
+
+      <section class="sec">
+        <div class="products" id="productContainer"></div>
+      </section>
+    </div>
+
+    <div id="about" class="about">
+      <div class="aboutText">
+        <h1>#Know Us...</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          iure eos!
+        </p>
+      </div>
+
+      <div class="aboutus">
+        <img src="Assets/About-image.png" alt="" />
+        <div class="dumiText">
+          <h1>Who we are ?</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing Dolorum corrupti
+            consequuntur sunt ipsam aperiam vel magni sequi eos sit amet
+            consectetur adipisicing Dolorum corrupti consequuntur sunt ipsam
+            aperiam vel magni sequi eos atque nam maxime dolorem fuga, rem eum
+            iure quidem! Illo corporis, asperiores ipsum excepturi voluptates
+            necessitatibus consectetur odit omnis hic praesentium autem,
+            officiis dignissimos assumenda saepe.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div id="reviews">
+        <div class="testimonial-container">
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <div class="user-text">
+                <i class="fas fa-solid fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi ex unde, eligendi dolorum voluptas nulla voluptatum
+                  dicta possimus itaque at quidem, quis, reprehenderit neque est
+                  consequatur aliquam ipsam. Cumque, nostrum?
+                </p>
+                <span> JOHN RAYAN,CEO HUMBLE</span>
+              </div>
+
+              <div class="user-text active-text">
+                <i class="fas fa-solid fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi ex unde, eligendi dolorum voluptas nulla voluptatum
+                  dicta possimus itaque at quidem, quis, reprehenderit neque est
+                  consequatur aliquam ipsam. Cumque,
+                </p>
+                <span> Ronald Reagan,MD Harman </span>
+              </div>
+
+              <div class="user-text">
+                <i class="fas fa-solid fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi ex unde, eligendi dolorum voluptas nulla voluptatum
+                  dicta possimus itaque at quidem, quis, reprehenderit neque est
+                  consequatur aliquam ipsam.
+                </p>
+                <span> Amelia Earhart,TL Amazon</span>
+              </div>
+
+              <div class="user-text">
+                <i class="fas fa-solid fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi ex unde, eligendi dolorum voluptas nulla voluptatum
+                  dicta possimus itaque at quidem, quis, reprehenderit neque est
+                  consequatur aliquam
+                </p>
+                <span> Greta Thunberg, HR Infoedz </span>
+              </div>
+
+              <div class="user-text">
+                <i class="fas fa-solid fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Commodi ex unde, eligendi dolorum voluptas nulla voluptatum
+                  dicta possimus itaque at quidem, quis, reprehenderit neque est
+                  consequatur
+                </p>
+                <span> Vladimir Lenin,CTO Xiaomi</span>
+              </div>
+            </div>
+            <div class="testimonial-pic">
+              <img
+                src="Assets/user1.png"
+                class="user-pic"
+                onclick="showReview()"
+              />
+              <img
+                src="Assets/user2.png"
+                class="user-pic active-pic"
+                onclick="showReview()"
+              />
+              <img
+                src="Assets/user3.png"
+                class="user-pic"
+                onclick="showReview()"
+              />
+              <img
+                src="Assets/user4.png"
+                class="user-pic"
+                onclick="showReview()"
+              />
+              <img
+                src="Assets/user5.png"
+                class="user-pic"
+                onclick="showReview()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Email:Info@example.com</p>
+          <p>Phone:+121 56556 565556</p>
+          <p>Address:Your Address 123 street</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2023 your company . All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
